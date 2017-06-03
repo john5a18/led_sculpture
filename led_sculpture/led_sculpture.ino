@@ -1,5 +1,6 @@
 // LED sulpture managing sketch (c) 2017 Kentaro Nakamura
 // released under the GPLv3 license to match the rest of the AdaFruit NeoPixel library
+// if you want to change the gif image, you can use my web application： https://ledsculpture.herokuapp.com/
 
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__

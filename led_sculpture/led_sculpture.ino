@@ -1,4 +1,4 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
+// LED sulpture managing sketch (c) 2017 Kentaro Nakamura
 // released under the GPLv3 license to match the rest of the AdaFruit NeoPixel library
 
 #include <Adafruit_NeoPixel.h>
@@ -30,9 +30,6 @@ int pxdata[FLAME][NUMPIXELS] = {
 //------------------------------
 //to here
 
-// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
-// Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
-// example for more information on possible values.
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 int delayval = 300; // delay for half a second
@@ -47,8 +44,6 @@ void setup() {
 }
 
 void loop() {
-
-  // For a set of NeoPixels the first NeoPixel is 0, second is 1, all the way up to the count of pixels minus one.
 
   for(int h=0;h<FLAME;h++){
 

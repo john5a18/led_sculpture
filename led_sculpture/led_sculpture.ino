@@ -8,6 +8,8 @@
 
 #define PIN            6
 
+//change lines from here
+//------------------------------
 #define NUMPIXELS      64
 
 #define FLAME          8
@@ -25,6 +27,8 @@ int pxdata[FLAME][NUMPIXELS] = {
   {2,2,1,1,2,2,2,2,2,1,1,1,1,2,2,2,1,1,1,1,1,1,2,2,1,0,1,1,0,1,1,2,1,1,1,1,1,1,1,2,2,1,2,2,1,2,2,2,1,2,1,1,2,1,2,2,2,1,2,2,1,2,1,2}
   };
 
+//------------------------------
+//to here
 
 // When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
 // Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
